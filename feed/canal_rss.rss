@@ -3,8 +3,8 @@
 <!-- Se define el canal -->
    <channel>
          <title>Canal RSS</title>
-         <link>file:///C:/Users/Propietario/Documents/DAM/DAMAGUA%20-%20Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/uti3/tarea3/index.html</link>
-         <description>Canal RSS de ejemplo</description>
+         <link>https://arb89.github.io/Festival/</link>
+         <description>Noticias de Actualidad</description>
          <language>es</language>
 <!-- Se definen los distintos items del canal-->      
 	 <item>

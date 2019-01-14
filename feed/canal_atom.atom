@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Se crea el canal, se determina el estándar a utilizar y el idioma del documento-->
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+	<title type="text">LMSGI03 Tarea</title>
+	<id>https://arb89.github.io/Festival/</id>
+	<link rel="self" type="application/atom+xml" href="https://arb89.github.io/Festival/feed/canal_atom.atom" />
+	<link rel="alternate" type="text/html" href="https://arb89.github.io/Festival/"/>
+	<updated>2019-01-14T21:20:46Z</updated>
+	<author>
+             <name>Alejandro Rodríguez Bravo</name>
+             <email>bravo_cartama-@hotmail.com</email>
+        </author>
+
+<!--Se definen las secciones que forman el canal-->	
+	<entry>
+		<title>Actividades culturales de la localidad donde tiene lugar el certamen cinematográfico</title>
+		<link rel="alternate" type="text/html" href="https://www.almeriaciudad.es/cultura/programas/visitas-guiadas-espacios-museisticos-2018" />
+		<updated>2019-01-14T21:20:46Z</updated>
+		<id>https://www.almeriaciudad.es/cultura/programas/visitas-guiadas-espacios-museisticos-2018</id>
+		<author>
+			<name>Alejandro Rodríguez Bravo</name>
+                   <email>bravo_cartama-@hotmail.com</email>
+		</author>
+		<summary>Descubre los Museos de Almería a través de sus visitas guiadas</summary>
+	</entry>
+	
+	<entry>
+		<title>Campeonata España SUP RIVER 2018</title>
+		<link rel="alternate" type="text/html" href="https://andaluciatrainer.com/campeonato-espana-sup-river-2018/"/>
+		<updated>2019-01-14T21:25:46Z</updated>
+		<id>https://andaluciatrainer.com/campeonato-espana-sup-river-2018/</id>
+		<author>
+			<name>Alejandro Rodríguez Bravo</name>
+                   <email>bravo_cartama-@hotmail.com</email>
+		</author>
+		<summary>El Club Andalucía Trainer organiza los próximos días 7-8 de Septiembre de 2018 el IV Circuito SUP-River con las pruebas de DESCENSO y SLALOM</summary>
+	</entry>
+	
+	<entry>
+		<title>Cursos de actución de España</title>
+		<link rel="alternate" type="text/html" href="https://www.centraldecine.com/p/es/cursos-actuacion-espana.php"/>
+		<updated>2019-01-14T21:25:46Z</updated>
+		<id>https://www.centraldecine.com/p/es/cursos-actuacion-espana.php</id>
+		<author>
+			<name>Alejandro Rodríguez Bravo</name>
+                   <email>bravo_cartama-@hotmail.com</email>
+		</author>
+		<summary>Escuela pionera en impartir Cursos de Actuación en España. En nuestra sede de Madrid ofrecemos cursos especializados para actores de cine y televisión.</summary>
+	</entry>
+</feed>
