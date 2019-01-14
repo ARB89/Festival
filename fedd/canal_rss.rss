@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"> 
+<!-- Se define el canal -->
+   <channel>
+         <title>Canal RSS</title>
+         <link>file:///C:/Users/Propietario/Documents/DAM/DAMAGUA%20-%20Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/uti3/tarea3/index.html</link>
+         <description>Canal RSS de ejemplo</description>
+         <language>es</language>
+<!-- Se definen los distintos items del canal-->      
+	 <item>
+             <title> Actividades culturales de la localidad donde tiene lugar el certamen cinematográfico</title>
+             <link>https://www.almeriaciudad.es/cultura/programas/visitas-guiadas-espacios-museisticos-2018/</link>
+             <description>Descubre los Museos de Almería a través de sus visitas guiadas</description>
+         </item>
+	 <item>
+             <title>Campeonata España SUP RIVER 2018</title>
+             <link>https://andaluciatrainer.com/campeonato-espana-sup-river-2018/</link>
+             <description>El Club Andalucía Trainer organiza los próximos días 7-8 de Septiembre de 2018 el IV Circuito SUP-River con las pruebas de DESCENSO y SLALOM</description>
+        </item>
+	<item>
+             <title>Cursos de actución de España</title>
+             <link>https://www.centraldecine.com/p/es/cursos-actuacion-espana.php</link>
+             <description>Escuela pionera en impartir Cursos de Actuación en España. En nuestra sede de Madrid ofrecemos cursos especializados para actores de cine y televisión.</description>
+        </item>
+    </channel>
+</rss>

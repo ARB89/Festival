@@ -1,0 +1,386 @@
+html {
+  box-sizing: border-box;
+  min-height: 100%;
+  font-size: 62.5%;    
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-principal{
+    margin: 0 auto;
+    width: 1300px;
+    max-width: 1500px;
+}
+
+body{
+ background-color: #E4E4E1;
+ background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ background-blend-mode: normal, multiply;
+ min-height: 100%;
+ font-family: 'open sans', sans-serif;
+ font-size: 1.6rem;    
+}
+
+
+
+/**Navegacion**/
+
+header{
+    width: 100%;
+    padding: 20px 0; 
+    background-color: white;
+   display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .menu a{
+    color:black;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 2.2rem;
+}
+header .menu a:hover{
+    color:crimson;
+}
+
+
+
+/**seccion inicio**/
+
+.contenedor-inicio{
+    width: 100%;
+    background-color:aliceblue;
+    font-weight: 1.2rem;
+}
+.titulo-1{
+    font-size: 2.5rem;
+    padding: 20px 0;
+    font-weight: 2rem;
+    color:darkorange;
+    text-align: center;
+}
+.presentacion p {
+    font-size: 1.5rem;
+    color:#000;
+    padding: 10px 5px;
+}
+
+/**seccion festival**/
+
+.contenedor-principio{
+    display: inline-flex;
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
+    background-color:aliceblue;
+    padding: 10px 15px;
+}
+
+
+.contenedor-principio h1{
+    width: 100%;
+    color:darkorange;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+
+.contenedor-datos{
+    width: 100%;
+    padding: 20px 0;
+    background-color:aliceblue;
+    text-align: center;
+}
+
+.contenedor-datos h2{
+    width: 100%;
+    color:darkorange;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0;
+}
+.direccion{
+    width: 100%;
+    padding: 20px 0;
+    background-color:aliceblue;
+}
+
+.direccion h2{
+    width: 100%;
+    color:darkorange;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0;
+}
+.direccion ul li{
+    text-align: center;
+    list-style: none;
+}
+
+.categoria{
+    width: 100%;
+    background-color:aliceblue;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.categoria h1{
+    width: 100%;
+    text-align: center;
+    color:darkorange;
+    padding: 30px 0;
+}
+
+.titulo-categoria{
+    width: 100%;
+    color: darkorange;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.texto-categorias{
+    padding: 20px 0;
+}
+
+.contenedor-categoria1{
+    width: 40%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.contenedor-categoria2{
+    width: 40%;
+     display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/**seccion películas**/
+
+
+@keyframes colores{
+    from{ background: aliceblue;}
+    to{background:darkorange;}
+}
+
+
+.contenedor-peliculas{
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    animation-name: colores;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    padding: 20px 0;
+}
+
+.contenedor-peliculas h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px 0;
+    color:#fff;
+}
+
+.contenedor-ficcion{
+    width: 90%;
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.contenedor-ficcion h2{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    padding: 20px 0;
+    color:#fff;
+}
+
+.contenedor-ficcion ul li{
+    list-style: none;
+    text-align: center;
+    color:#fff;
+}
+
+.contenedor-drama{
+    width: 90%;
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.contenedor-drama h2{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    padding: 20px 0;
+    color:#fff;
+}
+
+.contenedor-drama ul li{
+    list-style: none;
+    text-align: center;
+    color:#fff;
+}
+.nombre-pelicula{
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+
+
+/**seccion contacto**/
+
+.contenedor-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 20px 0;
+}
+
+.login{
+    width: 45%;
+    background-color:navajowhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 40px darkorange;
+    border-radius: 7px;
+    transition: all ease 700ms;
+}
+.login:hover{
+    width: 50%;
+    box-shadow: opx 1px 5px rgb(0,0,0, .4);
+}
+.login .uno h2{
+    color:#fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.login .uno{
+    border-bottom: solid 2px #fff;
+    width: 90%;
+    
+}
+.login .dos{
+    text-align: right;
+    color: #fff;
+}
+
+.login form input{
+    height: 23px;
+    font-size: 23px;
+    text-align: right;
+    border: 0;
+    box-shadow: 0px;
+    background-color:navajowhite;
+    margin-left: 30px;
+    border-bottom: solid #fff 1px;
+    transition: all ease 600ms;
+}
+.login form .in1:focus{
+    background: #fff;
+    color:#000;
+    border-radius: 5px;
+    height: 30px;
+    border: 0;
+}
+ .boton{
+    display: inline-flex;
+    width: 46%;
+    margin: 5px 8px;
+    height: 40px;
+    justify-content: center;
+    background-color: #fff;
+    border-bottom: splid #fff 1px; 
+}
+
+
+
+/** seccion footer**/
+
+
+.pie{
+    width: 100%;
+    background-color: white;
+}
+.contenedor-galeria{
+    width: 100%;
+    margin: 20px 20px;
+    padding-left: 80px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items:  center;
+    font-size: 1.5rem;
+}
+.galerias-ciencia img{
+    width: 30%;
+    transition: all 0.5s linear;
+}
+
+.galerias-ciencia img:hover{
+    transform: rotate(360deg);
+}
+.galerias-comedia img{
+    width: 30%;
+    transition: all 0.5s ease;
+}
+.galerias-comedia img:hover{
+    transform: translate(40px, 40px);
+}
+
+.galerias-drama img{
+    width: 30%;
+    transition: all 0.5s linear;
+}
+
+.galerias-drama img:hover{
+    transform: scale(0.9);
+}
+
+.galerias-aventura img{
+   width: 30%; 
+   transition: all 0.5s ease;   
+}
+
+.galerias-aventura img:hover{
+    transform: skew(20deg,0);
+}
+.titulo{
+    width: 100%;
+    padding: 20px 0;
+    color: darkorange;
+}
+
+
+/**creative**/
+
+.creative{
+  width: 100%;
+  padding:  20px 30px ;    
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+}
