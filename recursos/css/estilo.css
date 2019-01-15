@@ -374,6 +374,13 @@ header .menu a:hover{
     color: darkorange;
 }
 
+/**feed**/
+
+.feed{
+    width: 100%;
+    display: flex;
+    padding-left: 980px;
+}
 
 /**creative**/
 
